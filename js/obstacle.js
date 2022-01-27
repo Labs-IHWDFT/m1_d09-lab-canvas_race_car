@@ -10,7 +10,7 @@ class Obstacle extends Component {
     }
 
     draw() {
-        this.img.src = "./images/redCar.png";
+        this.img.src = "./images/red-car.png";
         this.game.ctx.drawImage(
             this.img,
             this.x,
